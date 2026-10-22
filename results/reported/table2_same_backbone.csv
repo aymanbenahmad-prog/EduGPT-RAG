@@ -1,0 +1,6 @@
+configuration,EM,EM_std,F1,F1_std,Recall@5,Faithfulness,Faithfulness_std
+GPT-3.5 + BM25 only,78.91,0.38,86.34,0.31,81.20,0.71,0.02
+GPT-3.5 + Dense (SBERT) only,81.45,0.34,86.82,0.28,86.92,0.74,0.02
+"GPT-3.5 + Hybrid, no re-rank",85.12,0.29,90.34,0.25,91.47,0.78,0.01
+"GPT-3.5 + Hybrid + Re-rank, no verify",87.93,0.27,92.84,0.22,96.83,0.79,0.01
+EduGPT-RAG (Full),89.47,0.31,94.12,0.24,96.83,0.91,0.01

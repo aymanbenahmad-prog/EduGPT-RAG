@@ -1,0 +1,6 @@
+model,dim,R@5,F1,IndexGB
+MiniLM-L6-v2,384,91.23,91.56,1.2
+MPNet-base-v2,768,94.18,93.21,2.4
+all-mpnet-base-v2,768,96.83,94.12,2.4
+E5-large-v2,1024,96.12,93.87,3.2
+BGE-large-en-v1.5,1024,95.89,93.64,3.2

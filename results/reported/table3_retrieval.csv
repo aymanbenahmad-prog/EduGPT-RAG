@@ -1,0 +1,5 @@
+retrieval,Recall@1,Recall@3,Recall@5,Recall@10,MRR
+BM25 Only,62.34,74.18,81.20,88.45,0.714
+SBERT Dense Only,68.71,80.43,86.92,92.18,0.773
+Hybrid (no re-rank),73.58,85.91,91.47,95.23,0.812
+Hybrid + Re-rank,79.12,91.36,96.83,98.41,0.876

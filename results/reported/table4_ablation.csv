@@ -1,0 +1,7 @@
+configuration,EM,F1,Recall@5,Faithfulness
+Full EduGPT-RAG,89.47,94.12,96.83,0.91
+- Anti-hallucination verification layer,87.93,92.84,96.83,0.79
+- CoT prompting,86.21,91.53,96.83,0.81
+- Cross-encoder re-ranking,84.18,89.67,91.47,0.77
+- Hybrid -> Dense only,81.45,86.82,86.92,0.74
+- Hybrid -> BM25 only,78.91,86.34,81.20,0.71

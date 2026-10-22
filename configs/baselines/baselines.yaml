@@ -1,0 +1,28 @@
+# Baseline settings (Section 4.1, "Baselines"). All baselines use published default settings.
+vanilla_gpt4:
+  model: gpt-4                 # manuscript: "Vanilla GPT-4 ... queried via the API with only the question text"
+  context: none
+bm25_gpt35:
+  run: t2_bm25_only            # same BM25 index, top-5 passages, no re-ranking, GPT-3.5-turbo
+dpr_bart:
+  question_encoder: facebook/dpr-question_encoder-single-nq-base
+  ctx_encoder: facebook/dpr-ctx_encoder-single-nq-base
+  generator: facebook/bart-large
+  top_k: 5
+colbert_qa:
+  checkpoint: colbert-ir/colbertv2.0
+  index: PLAID (nbits=2) over the same chunks
+  reader: gpt-3.5-turbo with the Appendix A.1 prompt   # reader not specified in the manuscript (see docs/BASELINES.md)
+  top_k: 5
+realm:
+  checkpoint: google/realm-orqa-nq-openqa              # uses its own Wikipedia block records
+fid:
+  checkpoint: nq_reader_large (facebookresearch/FiD)
+  passages: 100 hybrid-retrieved chunks per question
+self_rag:
+  checkpoint: selfrag/selfrag_llama2-7b
+  retrieval_threshold: 0.5
+  passages: top-5 hybrid-retrieved chunks
+atlas:
+  checkpoint: atlas-large (facebookresearch/atlas)
+  passages: 100 hybrid-retrieved chunks per question

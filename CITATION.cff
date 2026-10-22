@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "EduGPT-RAG reproducibility package"
+version: 1.0.0
+date-released: 2026-10-19
+license: CC0-1.0
+repository-code: "https://github.com/aymanbenahmad-prog/EduGPT-RAG"
+authors:
+  - name: "EduGPT-RAG authors (see the article)"
+preferred-citation:
+  type: article
+  title: "A Retrieval-Augmented with Anti-Hallucination Verification for Academic Question Answering Using EduGPT-RAG Large Language Model"
+  authors:
+    - name: "EduGPT-RAG authors (see the article)"

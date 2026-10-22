@@ -1,0 +1,35 @@
+{
+  "articles": {
+    "train": 442,
+    "dev": 35
+  },
+  "paragraphs": {
+    "train": 19035,
+    "dev": 1204
+  },
+  "questions": {
+    "train": 130319,
+    "dev": 11873
+  },
+  "answerable": {
+    "train": 86821,
+    "dev": 5928
+  },
+  "unanswerable": {
+    "train": 43498,
+    "dev": 5945
+  },
+  "unique_paragraphs_indexed": 20233,
+  "chunks": 20238,
+  "chunks_per_paragraph_mean": 1.0002,
+  "paragraphs_with_more_than_one_chunk": 5,
+  "max_paragraph_tokens": 653,
+  "mean_paragraph_tokens": 117.19,
+  "window_w": 512,
+  "overlap_s": 128,
+  "token_unit": "whitespace-delimited tokens",
+  "sha256": {
+    "train-v2.0.json": "68dcfbb971bd3e96d5b46c7177b16c1a4e7d4bdef19fb204502738552dede002",
+    "dev-v2.0.json": "80a5225e94905956a6446d296ca1093975c4d3b3260f1d6c8f68bc2ab77182d8"
+  }
+}

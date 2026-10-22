@@ -1,0 +1,9 @@
+component,10K,50K,100K,500K,1M
+SBERT Encoding,8,8,8,8,8
+FAISS Search,2,4,6,12,18
+BM25 Search,5,12,18,45,72
+RRF Fusion,1,1,1,1,1
+Cross-Encoder,35,35,35,35,35
+GPT Generation,380,380,380,380,380
+Anti-hallucination verification layer,25,25,25,25,25
+Total,456,465,473,506,539

@@ -1,0 +1,20 @@
+# Pinned to the software versions stated in the manuscript (Section 4.1) where stated.
+# Python 3.10.12, CUDA 12.1. FAISS-GPU 1.7.4 is installed from conda (environment.yml);
+# faiss-cpu 1.7.4 below is the pip equivalent for CPU-only use.
+torch==2.1.0
+transformers==4.36.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+pyserini==0.21.0
+openai==1.12.0
+datasets==2.16.1
+nltk==3.8.1
+numpy==1.26.2
+scipy==1.11.4
+pandas==2.1.4
+pyyaml==6.0.1
+matplotlib==3.8.2
+requests==2.31.0
+spacy==3.7.2
+colbert-ai==0.2.19
+pytest==7.4.3
